@@ -1,7 +1,7 @@
 {
-   "name": "black_panther-md",
+   "name": "𝕄𝔸ℝℂ-𝕄𝔻",
    "version": "1.2.8-beta",
-   "description": "Multi device whatsapp bot by Ibrahim Tech.",
+   "description": "Multi device whatsapp bot Coded By 𝔸𝕣𝕤𝕝𝕒𝕟 ℂ𝕙𝕒𝕦𝕕𝕒𝕣𝕪.",
    "main": "lib/smd.js",
    "type": "commonjs",  
    "scripts": {
@@ -9,7 +9,7 @@
             "start": "pm2 start lib/smd.js --attach --name Ibrahim",
             "stop": "pm2 stop Ibrahim"
    },
-   "author": "Ibrahim Adams",
+   "author": "𝔸𝕣𝕤𝕝𝕒𝕟 ℂ𝕙𝕒𝕦𝕕𝕒𝕣𝕪",
    "license" :"Apache-2.0",
    "dependencies": { 
              "@adiwajshing/keyed-db": "^0.2.4",
@@ -71,8 +71,8 @@
    },
    "repository": {
       "type": "git",
-      "url": "git+https://github.com/Ibrahimaitec/BLACK-PANTHER-MD.git"
+      "url": "git+https://github.com/Bot1Dev7/MAC-MD.git"
    },
-   "bugs": { "url": "https://github.com/Ibrahimaitech/BLACK-PANTHER-MD/issues" },
+   "bugs": { "url": "https://github.com/Bot1Dev7/MAC-MD/issues" },
    "homepage": "https://github.com/ibrahimaitech/BLACK PANTHER MD#readme"
 }

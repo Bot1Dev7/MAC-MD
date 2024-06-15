@@ -549,10 +549,10 @@ export async function groupsUpdate(groupsUpdate) {
         if (!id) continue
         let chats = global.db.data.chats[id], text = ''
         if (!chats?.detect) continue
-        if (groupUpdate.desc) text = (chats.sDesc || this.sDesc || conn.sDesc || 'Group description has been Updated\n*🔮 New Description:*\n@desc').replace('@desc', groupUpdate.desc)
-        if (groupUpdate.subject) text = (chats.sSubject || this.sSubject || conn.sSubject || 'Group name just updated\n*👑 New Name:*\n@group').replace('@group', groupUpdate.subject)
-        if (groupUpdate.icon) text = (chats.sIcon || this.sIcon || conn.sIcon || 'The group icon has been changed 🌸').replace('@icon', groupUpdate.icon)
-        if (groupUpdate.revoke) text = (chats.sRevoke || this.sRevoke || conn.sRevoke || 'The group link has been changed.\n*🖇️ New Link:*\n@revoke').replace('@revoke', groupUpdate.revoke)
+        if (groupUpdate.desc) text = (chats.sDesc || this.sDesc || conn.sDesc || 'Hy,Arslan Chaudary! Group description has been Updated\n*🔮 New Description:*\n@desc').replace('@desc', groupUpdate.desc)
+        if (groupUpdate.subject) text = (chats.sSubject || this.sSubject || conn.sSubject || 'Hy,Arslan Chaudary! Group name just updated\n*👑 New Name:*\n@group').replace('@group', groupUpdate.subject)
+        if (groupUpdate.icon) text = (chats.sIcon || this.sIcon || conn.sIcon || 'Hy,Arslan Chaudary! The group icon has been changed 🌸').replace('@icon', groupUpdate.icon)
+        if (groupUpdate.revoke) text = (chats.sRevoke || this.sRevoke || conn.sRevoke || 'Hy,Arslan Chaudary! The group link has been changed.\n*🖇️ New Link:*\n@revoke').replace('@revoke', groupUpdate.revoke)
         if (!text) continue
         await this.sendMessage(id, { text, mentions: this.parseMention(text) })
     }
@@ -585,16 +585,16 @@ To disable this feature, type
 }
 global.dfail = (type, m, conn) => {
     let msg = {
-        rowner: '👑 This command can only be used by the *Bot Creator*',
-        owner: '🔱 This command can only be used by the *Bot Owner*',
-        mods: '🔰 This feature is only for *For Bot moderators*',
-        premium: '💠 This command is only for *Premium* members\n\nType */premium* for more info',
-        group: '⚙️ This command can only be used in groups',
-        private: '📮 This command can only be used in the Bots *private* chat.',
-        admin: '🛡️ This command is only for *Admins* of the group',
-        nsfw: 'Enable NSFW to use this command 🥵🔥',
-        botAdmin: '💥 To use this command I must be *Administrator*',
-        unreg: '📇 Sign up to use this feature by writing:\n\n*/reg Name.age*\n\n📌 Example: */reg shizo.16*',
+        rowner: '👑Hy,Arslan Chaudary!  This command can only be used by the *Bot Creator*',
+        owner: '🇵🇰 Hy,Arslan Chaudary! This command can only be used by the *Bot Owner*',
+        mods: '🔰 Hy,Arslan Chaudary! This feature is only for *For Bot moderators*',
+        premium: '💠Hy,Arslan Chaudary!  This command is only for *Premium* members\n\nType */premium* for more info',
+        group: '⚙️ Hy,Arslan Chaudary! This command can only be used in groups',
+        private: '📮 Hy,Arslan Chaudary! This command can only be used in the Bots *private* chat.',
+        admin: '🛡️Hy,Arslan Chaudary!  This command is only for *Admins* of the group',
+        nsfw: 'Hy,Arslan Chaudary! Enable NSFW to use this command 🥵🔥',
+        botAdmin: '💥Hy,Arslan Chaudary!  To use this command I must be *Administrator*',
+        unreg: '📇 Hy,Arslan Chaudary! Sign up to use this feature by writing:\n\n*/reg Name.age*\n\n📌 Example: */reg Arslan Chaudary.19*',
         restrict: '🔐 This feature is *disabled* by Owner'
     }[type]
     if (msg) return m.reply(msg)

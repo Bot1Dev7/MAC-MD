@@ -5,7 +5,7 @@ RUN sudo dnf -y update &&\
     sudo dnf install -y git ffmpeg ImageMagick nodejs yarnpkg libwebp &&\
     sudo dnf clean all -y
 
-RUN git clone https://github.com/shizothetechie/oreo-bot
+RUN git clone https://github.com/Bot1Dev7/MAC-MD
 
 WORKDIR /root/oreo-bot
 

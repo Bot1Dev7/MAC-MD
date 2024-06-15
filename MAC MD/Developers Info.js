@@ -1,4 +1,4 @@
 
-Developer one = Mas tech https://wa.me/256705036288
+Developer one = Arslan Chaudary https://wa.me/923111977378
 
-Developer two = IBRAHIM TECH: https://wa.me/254710772666
+Developer two = MARC: https://wa.me/923288694739
